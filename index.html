@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de QRCode</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/svg/qr-code.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                Gerador de QRCode
+            </a>
+        </div>
+    </nav>
+
+    </br>
+
+
+    <section class="text-area container">
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Adicione um link/texto a ser gerado o QRCode
+            </label>
+            <textarea maxlength="300" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <div class="d-grid gap-2">
+            <button onclick="gerarQRCode()" class="btn btn-primary" type="button">Gerar QRCode</button>
+        </div>
+
+        </br>
+
+
+        <div class="d-flex flex-column align-items-center d-none" id="gerouQR">
+            <img id="imagemQRCode" alt="qrcode" width="300rem">
+
+            <button onclick="window.print()" class="btn btn-primary" type="button">Imprimir</button>
+        </div>
+
+        <div class="d-none d-flex justify-content-center" id="carregando">
+            <div class="spinner-grow text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+
+    <footer>
+
+        <script src="./script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+
+    </footer>
+
+</body>
+
+</html>
