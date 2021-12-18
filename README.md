@@ -5,5 +5,5 @@ Uma aplicação que gera um QRCode a partir de qualquer link/texto utilizando a 
 
 https://giuliaamaral.github.io/gerador-qrcode/
 
-<img src="https://i.imgur.com/kXHBbP3.png" min-width="400px" max-width="400px" width="400px" align="right">
-<img src="https://i.imgur.com/JADQJM3.png" min-width="400px" max-width="400px" width="400px" >
+<img src="https://i.imgur.com/H5fL7w0.png" min-width="400px" max-width="400px" width="400px" align="right">
+<img src="https://i.imgur.com/6izv4OM.png" min-width="400px" max-width="400px" width="400px" >
