@@ -28,9 +28,9 @@
 
     <section class="text-area container">
         <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Adicione um link/texto a ser gerado o QRCode
+            <label for="texto" class="form-label">Adicione um link/texto a ser gerado o QRCode
             </label>
-            <textarea maxlength="300" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <textarea maxlength="300" class="form-control" id="texto" name="texto" rows="3"></textarea>
         </div>
 
         <div class="d-grid gap-2">
@@ -43,7 +43,7 @@
         <div class="d-flex flex-column align-items-center d-none" id="gerouQR">
             <img id="imagemQRCode" alt="qrcode" width="300rem">
 
-            <button onclick="window.print()" class="btn btn-primary" type="button">Imprimir</button>
+            <button onclick="compartilhar()" class="btn btn-primary" type="button">Compartilhar</button>
         </div>
 
         <div class="d-none d-flex justify-content-center" id="carregando">
