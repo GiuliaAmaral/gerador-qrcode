@@ -1,0 +1,6 @@
+[{
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target" : { "namespace": "android_app", "package_name": "qrcode.giuliaamaral.com.br",
+                     "sha256_cert_fingerprints": ["DE:58:7E:F2:49:7D:C4:D2:17:3D:05:74:80:50:76:8C:79:2C:69:C1:19:F8:11:9D:42:10:AF:2B:B2:DA:AB:29"] }
+      }
+]
