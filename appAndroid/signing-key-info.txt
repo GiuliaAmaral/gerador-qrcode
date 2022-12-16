@@ -4,7 +4,7 @@ Key store file: signing.keystore
 Key store password: HLXc7JQhI7Az
 Key alias: my-key-alias
 Key password: R1q633Gr3eVI
-Signer's full name: Gerador QRCode Admin
-Signer's organization: Gerador QRCode
-Signer's organizational unit: Engineering
-Signer's country code: US
+Signer's full name: 
+Signer's organization: 
+Signer's organizational unit: 
+Signer's country code: 
